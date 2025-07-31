@@ -1,2 +1,10 @@
-def no_es_vocal():
-    no_vocal = string(input("Ingresa una letra y te digo si es vocal o no"))
+no_vocal = str(input("Ingresa una letra  "))
+print(no_vocal)
+if no_vocal in"aeiou":
+    # no_vocal = no_vocal.replace("a", " ")
+    print("Es una vocal")
+else:
+    print("No es una vocal")
+
+
+
