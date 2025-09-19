@@ -1,0 +1,6 @@
+print('Calculo de una operacion ')
+num1= input('Ingrese el primer numero ')
+num2 = input('ingrese el numero 2 ')
+operador = input("Ingrese la operacion +-/ // %  *")
+resultado = eval(num1+operador+num2)
+print( num1, operador, num2, '=', resultado)

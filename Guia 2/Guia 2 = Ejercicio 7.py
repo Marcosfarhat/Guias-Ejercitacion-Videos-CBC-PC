@@ -1,0 +1,2 @@
+def unir(cadena,entero):
+    
