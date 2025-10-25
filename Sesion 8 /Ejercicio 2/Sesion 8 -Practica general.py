@@ -1,0 +1,21 @@
+esto_es_un_archivo=open('regalo.txt')
+print('esta es la cadena de texto que que genera read')
+esto_es_una_cadena_de_text=esto_es_un_archivo.read()
+print(type(esto_es_una_cadena_de_text))
+print(esto_es_una_cadena_de_text)
+
+esto_es_un_archivo.seek(0)
+print('esto es el tipo de objeto que representa el texto en :esto_es_un_archivo ',type(esto_es_un_archivo),'\n')
+print('esta es la lista que genera readlines')
+esto_es_una_lista=esto_es_un_archivo.readlines()
+print(esto_es_una_lista,'\n')
+
+esto_es_un_archivo.seek(0)
+print('esto es el tipo de objeto que representa el texto en :esto_es_un_archivo ',type(esto_es_un_archivo),'\n')
+print('esta es el texto (str) de la primera linea  que genera readline')
+linea_unica=esto_es_un_archivo.readline()
+print(linea_unica)
+linea_unica=esto_es_un_archivo.readline()
+print(linea_unica)
+
+esto_es_un_archivo.close()
